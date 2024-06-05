@@ -4,7 +4,7 @@ This project provides a set of APIs for managing vendors, purchase orders, and h
 
 ## Overview
 
-This project is built using Django and Django Rest Framework (DRF) for creating RESTful APIs. It includes endpoints for user authentication, managing vendors, purchase orders, and retrieving historical performance data.
+This project is built using Django and Django Rest Framework (DRF) for creating RESTful APIs. It includes endpoints for user authentication, managing vendors, purchase orders, and retrieving historical performance data. You can explore this project on the following live URL: https://vendor-management-wms9.onrender.com/
 
 ## Installation
 
@@ -67,10 +67,25 @@ To run this project locally, follow these steps:
 - **Endpoint**: `/login/`
   - Method: `POST`
   - Description: User login endpoint.
+  - Payload: 
+  ```
+  {
+    "username": "example_user",
+    "password": "your_password_here"
+  }
+  ```
   
 - **Endpoint**: `/register/`
   - Method: `POST`
   - Description: User registration endpoint.
+  - Payload: 
+  ```
+  {
+    "username": "example_user",
+    "email": "example@example.com",
+    "password": "your_password_here"
+  }
+  ```
   
 - **Endpoint**: `/token/`
   - Method: `POST`
