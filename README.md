@@ -1,4 +1,4 @@
-# Project Name
+# Vendor Management System with Performance Metrics
 
 This project provides a set of APIs for managing vendors, purchase orders, and historical performance records.
 
